@@ -11,7 +11,7 @@ config.read('config.ini')
 OAUTH2_CLIENT_ID = config['CONFIG']['clientid']
 OAUTH2_CLIENT_SECRET =config['CONFIG']['clientsercret']
 PORT = os.getenv('PORT')
-OAUTH2_REDIRECT_URI = f'http://hostinggggauth.herokuapp.com/callback'
+OAUTH2_REDIRECT_URI = f'https://auth444.herokuapp.com/'
 
 API_BASE_URL = os.environ.get('API_BASE_URL', 'https://discordapp.com/api')
 AUTHORIZATION_BASE_URL = API_BASE_URL + '/oauth2/authorize'
